@@ -2,7 +2,7 @@ package day04_practice_tasks;
 
 public class Finra {
     public static void main(String[] args) {
-        int x = 21;
+        int x = 15;
 
         if (x % 3 == 0 && x % 5 == 0) {
             System.out.println("FINRA");

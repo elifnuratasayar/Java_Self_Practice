@@ -12,7 +12,7 @@ public class StartsWithX{
         word=word.replaceFirst("x","a");
         input.close();
         System.out.println(word);
-        input.close();
+
     }
     }
 
