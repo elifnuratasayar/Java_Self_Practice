@@ -1,10 +1,12 @@
 package day13_parctice_task.employee;
 
 public class Developer extends Employee {
-    public Developer(String employeeId, String jobTitle, double salary, String companyName, String name) {
-        super(employeeId, jobTitle, salary, companyName, name);
-    }
     private String programmingLanguage;
+
+    public Developer(String employeeId, String jobTitle, double salary, String companyName, String name, String programmingLanguage) {
+        super(employeeId, jobTitle, salary, companyName, name);
+        setProgrammingLanguage(programmingLanguage);
+    }
 
     @Override
     public void work() {

@@ -20,11 +20,11 @@ public class Employee {
     }
 
     public Employee(String employeeId, String jobTitle, double salary, String companyName, String name) {
-        this.employeeId = employeeId;
-        this.jobTitle = jobTitle;
-        this.salary = salary;
-        this.companyName = companyName;
-        this.name = name;
+        setEmployeeId(employeeId);
+        setJobTitle(jobTitle);
+        setSalary(salary);
+        setCompanyName(companyName);
+        setName(name);
     }
 
     public String getEmployeeId() {

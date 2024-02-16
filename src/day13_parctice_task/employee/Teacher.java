@@ -8,6 +8,6 @@ public class Teacher extends Employee{
     @Override
     public void work() {
         super.work();
-        System.out.println(getName()+" is tesching");
+        System.out.println(getName()+" is teaching");
     }
 }
